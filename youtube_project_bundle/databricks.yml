@@ -37,9 +37,9 @@ targets:
     workspace:
       host: https://dbc-d1b02804-095f.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/hitti07@gmail.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/hitti07@gmail.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Youtube_GC_Project
     variables:
-      catalog: youtube_dev
+      catalog: youtube_prod
       schema: prod
       warehouse_id: fa4c3cdbe539d618
     permissions:
