@@ -21,6 +21,8 @@ resources:
             subscription: {}
             warehouse_id: fa4c3cdbe539d618
             dashboard_id: ${resources.dashboards.earthquake_monitor.id}
+      run_as:
+        service_principal_name: ${var.spn_id}
       queue:
         enabled: true
       parameters:
