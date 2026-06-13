@@ -6,7 +6,7 @@
       "queryLines": [
         "SELECT * FROM silver.earthquake_data_final"
       ],
-      "catalog": "youtube_prod",
+      "catalog": "youtube_dev",
       "schema": "default"
     },
     {
@@ -24,7 +24,7 @@
         "    FROM silver.earthquake_data_final\r\n",
         ") GROUP BY magnitude_bucket"
       ],
-      "catalog": "youtube_prod",
+      "catalog": "youtube_dev",
       "schema": "default"
     },
     {
@@ -43,7 +43,7 @@
         "    FROM silver.earthquake_data_final\r\n",
         ") GROUP BY country"
       ],
-      "catalog": "youtube_prod",
+      "catalog": "youtube_dev",
       "schema": "default"
     }
   ],
